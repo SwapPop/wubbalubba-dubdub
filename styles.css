@@ -1,42 +1,201 @@
-.frontpage {
+* {
+  color: #4bdbd4;
+}
+
+body {
+  background-color: #000421;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: white;
+  font-family: "impact";
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26pt;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #5cff62;
+}
+
+h4 {
+  text-align: center;
+  font-size: 16pt;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button {
+  font-size: 16pt;
+  background-color: #0de014;
+  color: white;
+  border-color: white;
+  height: 30px;
+  width: 80px;
+  margin: 15px;
+}
+
+#frontpage {
   width: 100%;
   height: 100%;
   position: relative;
   min-height: 650px;
-  background-color: #FFFBFA;
-  padding-bottom: 50px;
+  background-color: inherit;
+  padding-bottom: 250px;
+}
+
+label {
+  font-size: 24pt;
+  text-align: center;
+  font-family: "impact";
+}
+
+#searchInput {
+  font-size: 16pt;
+  margin: 20px;
+  height: 30px;
+  width: 70%;
+  color: #000421;
+  text-align: center;
+}
+
+#selector {
+  font-size: 16pt;
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  color: #000421;
+}
+
+#searchSubmit {
+  font-size: 16pt;
+  background-color: #0de014;
+  color: white;
+  border-color: white;
+  height: 30px;
+  width: 200px;
+  margin: 15px;
+}
+
+#searchSubmit:hover {
+  background-color: #4bdbd4;
+}
+
+#multiverseResults {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#buttonDiv {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64pt;
+  padding: 10% 10% 20px 10%;
+  font-family: "impact";
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    font-size: 48pt;
+  }
+
+  label {
+    font-size: 20pt;
+  }
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+li {
+  color: white;
+}
+
+.result {
+  margin: 20px 10px;
+  padding: 30px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #007c9e;
+  color: #000421;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  .result {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.profilePic {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 15px;
 }
 
 .infoList {
   list-style: none;
+  font-size: 16pt;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #BFC7C7;
+  background-color: #4bdbd4;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 51px;
+  height: 251px;
   text-align: center;
 }
 
 .footer-item {
+  font-size: 16pt;
   height: 25px;
+  font-family: "impact";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-item a {
-  color: #363838;
+  color: white;
   text-decoration: none;
 }
 
 .footer-item a:hover {
-  color: #EBF5F5;
+  color: #00042e;
   text-decoration: underline;
 }
 
 .footer-item a:active {
-  color: #e1f3f5;
+  color: #5cff62;
 }

@@ -73,7 +73,7 @@ function makeResult(info) {
   }
   returnHTML += "<div class=\"infoDiv\">"
   if (info.name) {
-    returnHTML += "<h2>" + info.name + "</h2>\n";
+    returnHTML += "<h2 class=\"name\">" + info.name + "</h2>\n";
   }
   if (info.episode && !info.species) {
     returnHTML += "<h4><em>" + info.episode + "</em></h4>\n"

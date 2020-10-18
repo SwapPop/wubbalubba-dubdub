@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  color: white;
+  color: #000421;
   font-family: "impact";
   padding: 0;
   margin: 0;
@@ -20,7 +20,8 @@ h2 {
   font-size: 26pt;
   padding-left: 40px;
   padding-right: 40px;
-  color: #5cff62;
+  font-family: "impact";
+  font-weight: bold;
 }
 
 h4 {
@@ -50,7 +51,7 @@ button {
 }
 
 label {
-  font-size: 24pt;
+  font-size: 26pt;
   text-align: center;
   font-family: "impact";
 }
@@ -123,6 +124,7 @@ form {
 
 li {
   color: white;
+  font-family: sans-serif;
 }
 
 .result {
@@ -149,6 +151,11 @@ li {
   height: 300px;
   display: flex;
   justify-content: center;
+}
+
+.name {
+  color: #5cff62;
+  font-family: sans-serif;
 }
 
 .infoDiv {
@@ -187,12 +194,12 @@ li {
 }
 
 .footer-item a {
-  color: white;
+  color: #000421;
   text-decoration: none;
 }
 
 .footer-item a:hover {
-  color: #00042e;
+  color: white;
   text-decoration: underline;
 }
 
